@@ -26,3 +26,26 @@ int main() {
 
     return 0;
 }
+
+
+//Steps
+
+1.Start
+
+2.Initialize an array a[n] and a variable sum ← 0
+
+4.Read n elements into the array a
+
+  For i = 0 to n-1, input a[i]
+
+5.Display the array elements
+
+  For i = 0 to n-1, print a[i]
+
+6.Compute the sum of elements
+
+  For i = 0 to n-1, do sum ← sum + a[i]
+
+7.Print sum
+
+8.Stop
