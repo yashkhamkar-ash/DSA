@@ -103,3 +103,69 @@ switch(operation){
     }
     return 0;
     }
+
+//Steps
+
+1.Start
+
+2.Initialize a queue with:
+
+  Array arr[MAX]
+
+  front = -1, rear = -1
+
+3.Display the menu:
+
+  1. Enqueue
+
+  2. Dequeue
+
+  3. Exit
+
+4.Input user choice operation
+
+@Case 1: Enqueue Operation
+
+5.If rear == MAX - 1
+
+  Print "Queue Overflow – cannot insert"
+
+6.Else
+
+  Input element x
+
+  If front == -1 && rear == -1 (queue empty)
+
+   Set front = 0, rear = 0
+
+  Else
+
+   Increment rear
+
+  Insert element: arr[rear] ← x
+
+  Print "x inserted into queue"
+
+@Case 2: Dequeue Operation
+
+7.If front == -1 && rear == -1
+
+  Print "Queue Underflow – cannot delete"
+
+8.Else if front == rear
+
+  Remove element arr[front]
+
+  Reset front = -1, rear = -1 (queue becomes empty)
+
+9.Else
+
+  Remove element arr[front]
+
+  Increment front
+
+@Case 3: Exit
+
+10.Terminate the program
+
+11.Stop
