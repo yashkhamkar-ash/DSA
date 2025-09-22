@@ -90,3 +90,63 @@ break;
 }
 return 0;
 }
+
+//Steps
+
+1.Start
+
+2.Initialize a stack with:
+
+  Array arr[MAX]
+
+  top = -1
+
+3.Display menu:
+
+  1. Push
+
+  2. Peek
+
+  3. Pop
+
+4.Input operation
+
+@Case 1: Push Operation
+
+5.If top == MAX - 1 (stack full)
+
+  Print "Stack Overflow – cannot push"
+
+6.Else
+
+  Input element x
+
+  Increment top
+
+  arr[top] ← x
+
+  Print "x pushed into stack"
+
+@Case 2: Peek Operation
+
+7.If top == -1 (stack empty)
+
+  Print "Stack Empty – cannot peek"
+
+8.Else
+
+  Print "arr[top] is at the top of the stack"
+
+@Case 3: Pop Operation
+
+9.If top == -1 (stack empty)
+
+  Print "Stack Underflow – cannot pop"
+
+10.Else
+
+  Print "arr[top] popped"
+
+  Decrement top
+
+11.Stop
